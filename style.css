@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans:wght@100;700;800&family=Sacramento&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #012030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login > h1 {
+    color: #DAFDBA;
+}
+.dj {
+    width: 35vw;
+}
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #093041;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #0000006c ;
+}
+.card-login > h1 {
+    color: #DAFDBA;
+    font-weight: 750;
+    margin: 0;
+}
+.text-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.text-field > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #13678A;
+    color: #fff;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #0000006c;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+.text-field > label {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.text-field > input::placeholder {
+    color: #9e9e9e;
+    
+}
+
+.btn-entrar {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #000000;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #13678A;
+
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #000000;
+}
